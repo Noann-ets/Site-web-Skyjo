@@ -1,6 +1,37 @@
+*{
+    font-family: "Inter", sans-serif;
+}
 
-.main-title {
-  font-family: 'Arial', sans-serif; 
+
+
+footer {
+  display: flex;                 
+  justify-content: space-between;
+  align-items: center;           
+  padding: 20px 40px;
+  background-color: #f8f8f8;
+}
+
+.footer-left, .footer-center, .footer-right {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* espace entre logos ou éléments */
+}
+
+.footer-center img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;  /* rend le logo rond */
+  object-fit: cover;    /* ajuste si l'image n'est pas carrée */
+  
+}
+
+.footer-center img:hover {
+  transform: scale(1.2); /* effet léger au survol */
+}
+
+
+.footer-left { 
   font-size: 36px;                  /* taille importante */
   font-weight: 700;                 /* gras */
   text-transform: uppercase;        /* toutes majuscules */             
@@ -14,3 +45,115 @@
     0 0 40px #84ff4b,
     0 0 80px #15f909;                      
 }
+
+
+
+
+header {
+  display: flex;                 
+  flex-direction: column;
+  align-items: center;           
+  padding: 20px 40px;
+  background-color: #f8f8f8;
+  
+}
+
+#header-content {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 93lvw;
+
+}
+
+.header-left, .footer-center, .footer-right {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* espace entre logos ou éléments */
+}
+
+.header-center img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;  /* rend le logo rond */
+  object-fit: cover;    /* ajuste si l'image n'est pas carrée */
+}
+
+.header-center img:hover {
+  transform: scale(1.2); /* effet léger au survol */
+}
+
+
+.header-left { 
+  font-size: 36px;                  /* taille importante */
+  font-weight: 700;                 /* gras */
+  text-transform: uppercase;        /* toutes majuscules */             
+  letter-spacing: 2px;              /* espacement entre lettres */
+  margin: 40px 0;                   
+  color: #ed0ac7;
+  text-shadow:
+    0 0 5px #FF4B4B,
+    0 0 10px #b6ec06,
+    0 0 20px #4bff8d,
+    0 0 40px #84ff4b,
+    0 0 80px #15f909;                      
+}
+
+
+
+
+
+#Main-Content {
+  max-width: 800px;        /* largeur maximale du contenu */
+  margin: 0 left;          
+  padding: 20px;           /* petit espace autour du texte */
+  line-height: 1.6;        
+}
+
+/* Image principale */
+.skyjo img {
+  width: 100%;             
+  height: auto;            
+  display: block;          /* supprime l'espace en dessous de l'image */
+  border-radius: 10px;     /* coins arrondis */
+  margin-bottom: 20px;     /* espace entre image et texte */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2); 
+}
+
+
+h2, h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+
+p {
+  text-align: justify;     /* texte bien aligné à gauche et droite */
+  margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
