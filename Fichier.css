@@ -1,0 +1,16 @@
+
+.main-title {
+  font-family: 'Arial', sans-serif; 
+  font-size: 36px;                  /* taille importante */
+  font-weight: 700;                 /* gras */
+  text-transform: uppercase;        /* toutes majuscules */             
+  letter-spacing: 2px;              /* espacement entre lettres */
+  margin: 40px 0;                   
+  color: #ed0ac7;
+  text-shadow:
+    0 0 5px #FF4B4B,
+    0 0 10px #b6ec06,
+    0 0 20px #4bff8d,
+    0 0 40px #84ff4b,
+    0 0 80px #15f909;                      
+}
