@@ -135,6 +135,80 @@ p {
 
 
 
+.content-wrapper {
+  display: flex;            /* aligne main et sidebar sur une ligne */
+  justify-content: space-between;
+  max-width: 1200px;        /* largeur maximale du site */
+  margin: 0 left;           /* centre le tout */
+  padding: 20px;
+  gap: 30px;                /* espace entre article et sidebar */
+  align-items: flex-start;
+  max-width: 2000px;
+  align-items: stretch; 
+}
+
+.sidebar {
+  width: 350px;            
+  background-color: #fafafa;
+  padding: 25px;
+  border-left: 3px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  flex-shrink: 0;           /* empêche la sidebar de rétrécir */
+}
+
+
+.sidebar h2 {
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: #222;
+  text-align: center;
+}
+
+
+.sidebar .card {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  
+}
+
+.sidebar .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+
+.sidebar .card img {
+  width: 100%;           /* remplissage complet de la card */
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+
+.sidebar .card button {
+  padding: 10px 16px;
+  background-color: #0078d4;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.sidebar .card button:hover {
+  background-color: #005bb5;
+  transform: scale(1.05);
+}
+
+
+
+
+
+
 
 
 
