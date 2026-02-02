@@ -4,6 +4,36 @@
 
 
 
+
+
+
+.navbar {
+  background: linear-gradient(135deg, #e35aa1, #6a2c91);
+  padding: 20px 40px;
+  border-radius: 20px;
+}
+
+/* Liste horizontale */
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* Liens */
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  
+}
+
+
 footer {
   display: flex;                 
   justify-content: space-between;
@@ -78,12 +108,9 @@ header {
 
 
 
-
-
-
-
-
   
+
+
   
 }
 
@@ -274,6 +301,10 @@ p {
 
 
 }
+
+
+
+
 
 
     
