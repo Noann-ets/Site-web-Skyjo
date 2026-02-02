@@ -1,0 +1,34 @@
+{
+  "cartes_action": [
+    {
+      "nom": "Échange avec la pioche",
+      "description": "Permet d'échanger une de tes cartes avec la première carte de la pioche afin d'essayer de réduire ton total de points.",
+      "image": ""
+    },
+    {
+      "nom": "Échange avec un adversaire",
+      "description": "Permet d'échanger une de tes cartes avec une carte d'un adversaire, visible ou cachée selon les règles en vigueur.",
+      "image": ""
+    },
+    {
+      "nom": "Regarder une carte",
+      "description": "Permet de regarder secrètement une carte cachée, soit dans ton jeu soit dans celui d'un adversaire.",
+      "image": ""
+    },
+    {
+      "nom": "Regarder deux cartes",
+      "description": "Permet de regarder deux cartes cachées au choix afin de mieux planifier tes prochains coups.",
+      "image": ""
+    },
+    {
+      "nom": "Annuler une action",
+      "description": "Permet d'annuler l'effet d'une carte Action jouée par un adversaire.",
+      "image": ""
+    },
+    {
+      "nom": "Rejouer un tour",
+      "description": "Permet de rejouer immédiatement un tour après avoir terminé le tien.",
+      "image": ""
+    }
+  ]
+}
