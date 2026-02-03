@@ -130,7 +130,7 @@ header {
   text-transform: uppercase;        /* toutes majuscules */             
   letter-spacing: 2px;              /* espacement entre lettres */
   margin: 40px 0;                   
-  color: #871eea;
+  color: #8d66b2;
   text-shadow:
     0 0 5px #640693,
     0 0 10px #9808ae,
@@ -185,7 +185,7 @@ p {
   display: flex;            /* aligne main et sidebar sur une ligne */
   justify-content: space-between;
   max-width: 1200px;        /* largeur maximale du site */
-  margin: 0 left;           /* centre le tout */
+  margin: 0 left;           
   padding: 20px;
   gap: 30px;                /* espace entre article et sidebar */
   align-items: flex-start;
