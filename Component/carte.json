@@ -1,8 +1,8 @@
 {
   "cartes_action": [
     {
-      "nom": "Échange avec la pioche",
-      "description": "Permet d'échanger une de tes cartes avec la première carte de la pioche afin d'essayer de réduire ton total de points.",
+      "nom": "Piocher 3 fois",
+      "description": "Permet de piocher 3 cartes et d'en choisir que 1 à jouer afin d'essayer de réduire ton total de points.",
       "image": "images/echange_pioche.png"
     },
     {
@@ -12,24 +12,58 @@
     },
     {
       "nom": "Regarder une carte",
-      "description": "Permet de regarder secrètement une carte cachée, soit dans ton jeu soit dans celui d'un adversaire.",
+      "description": "Permet de regarder une carte cachée, soit dans ton jeu soit dans celui d'un adversaire.",
       "image": "images/regarder_carte.png"
     },
     {
-      "nom": "Regarder deux cartes",
-      "description": "Permet de regarder deux cartes cachées au choix afin de mieux planifier tes prochains coups.",
-      "image": "images/regarder_deux_cartes.png"
+      "nom": "Jouer 2 fois",
+      "description": "Permet de jouer 2 fois : piocher, jouer une action ou dévoiler une carte de son jeu.",
+      "image": "capture/image4.jpeg"
     },
     {
       "nom": "Annuler une action",
-      "description": "Permet d'annuler l'effet d'une carte Action jouée par un adversaire.",
+      "description": "Permet d'annuler l'effet d'une carte Action jouée par un adversaire ou de s'en débarrasser tout en permettant de jouer après sa défausse.",
       "image": "images/annuler_action.png"
     },
     {
-      "nom": "Rejouer un tour",
-      "description": "Permet de rejouer immédiatement un tour après avoir terminé le tien.",
-      "image": "images/rejouer_tour.png"
-    }
+      "nom": "Voleur",
+      "description": "Permet de voler une carte Action d'un joueur.",
+      "image": "capture/image2.jpeg"
+    },
+    {
+      "nom": "Piocher défausse action",
+      "description": "Permet de piocher n'importe quelle carte Action dans la défausse.",
+      "image": "capture/image1.jpeg"
+   
+   
+    },
+    {
+
+      "nom": "Regarder ligne ou colonne ",
+      "description": "Permet de regarder toutes les cartes faces cachés d'une ligne ou d'une colonne",
+      "image": "capture/image0.jpeg"
+
+
+    },
+    {
+    
+      "nom": "Inverse 2 cartes de son jeu",
+      "description": "Permet d'inverser 2 cartes de son jeu qu'elle soit face cacé avec face caché et inversement",
+      "image": "capture/image6.jpeg"
+   
+   
+    }    
+
+
+
+
   ]
+
+
+
+
+
 }
+
+
 
