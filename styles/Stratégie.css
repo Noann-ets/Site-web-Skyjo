@@ -169,7 +169,7 @@ footer {
   
 
   /* effet carte */
-  background: linear-gradient(145deg, #ffffff, #eaeaea);
+  background: linear-gradient(135deg, #e35aa1, #6a2c91);
   padding: 12px;
 
   /* ombre réaliste */
@@ -183,4 +183,54 @@ footer {
 }
 
 
+/* Conteneur */
+#cartes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 16px;
+  padding: 20px;
+  justify-items: center;
+}
+
+/* Carte */
+.carte {
+  width: 160px;
+  background: linear-gradient(135deg, #e35aa1, #6a2c91);
+  color: white;
+  border-radius: 14px;
+  padding: 10px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
+  
+}
+
+/* Hover */
+.carte:hover {
+  transform: translateY(-6px) scale(1.04);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.6);
+}
+
+/* Titre */
+.carte h3 {
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+  text-align: center;
+  color: #ffd86b;
+}
+
+/* Image */
+.carte img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 6px;
+}
+
+/* Description */
+.carte p {
+  font-size: 0.8rem;
+  line-height: 1.3;
+  text-align: center;
+  color: #e0e0e0;
+}
 

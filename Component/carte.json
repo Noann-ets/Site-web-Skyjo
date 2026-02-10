@@ -3,27 +3,18 @@
     {
       "nom": "Piocher 3 fois",
       "description": "Permet de piocher 3 cartes et d'en choisir que 1 à jouer afin d'essayer de réduire ton total de points.",
-      "image": "images/echange_pioche.png"
+      "image": "capture/image5.jpeg"
     },
-    {
-      "nom": "Échange avec un adversaire",
-      "description": "Permet d'échanger une de tes cartes avec une carte d'un adversaire, visible ou cachée selon les règles en vigueur.",
-      "image": "images/echange_adversaire.png"
-    },
-    {
-      "nom": "Regarder une carte",
-      "description": "Permet de regarder une carte cachée, soit dans ton jeu soit dans celui d'un adversaire.",
-      "image": "images/regarder_carte.png"
-    },
+     
     {
       "nom": "Jouer 2 fois",
       "description": "Permet de jouer 2 fois : piocher, jouer une action ou dévoiler une carte de son jeu.",
       "image": "capture/image4.jpeg"
     },
     {
-      "nom": "Annuler une action",
-      "description": "Permet d'annuler l'effet d'une carte Action jouée par un adversaire ou de s'en débarrasser tout en permettant de jouer après sa défausse.",
-      "image": "images/annuler_action.png"
+      "nom": "Changer une carte au choix de ces adversaires",
+      "description": "Permet au joueur de retirer une carte de son choix dans les jeux adverses et de la remplacer par une carte au pif de la pioche",
+      "image": "capture/image3.jpeg"
     },
     {
       "nom": "Voleur",
