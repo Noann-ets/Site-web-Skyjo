@@ -1,0 +1,175 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+
+
+
+
+
+
+.navbar {
+  background: linear-gradient(135deg, #e35aa1, #6a2c91);
+  padding: 20px 40px;
+  border-radius: 20px;
+}
+
+/* Liste horizontale */
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* Liens */
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  
+}
+
+
+
+header {
+  display: flex;                 
+  flex-direction: column;
+  align-items: center;           
+  padding: 20px 40px;
+  background-color: #f8f8f8;
+
+}
+
+
+#header-content {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 93lvw;
+
+}
+
+.header-left { 
+  font-size: 36px;                  /* taille importante */
+  font-weight: 700;                 /* gras */
+  text-transform: uppercase;        /* toutes majuscules */             
+  letter-spacing: 2px;              /* espacement entre lettres */
+  margin: 40px 0;                   
+  color: #871eea;
+  text-shadow:
+    0 0 5px #640693,
+    0 0 10px #9808ae,
+    0 0 20px #4bff8d,
+    0 0 40px #84ff4b,
+    0 0 80px #15f909;                      
+}
+
+
+#Image {
+ 
+  margin: 0;
+  padding: 0;
+  text-align: center; /* centre le contenu horizontalement */
+  font-family: Arial, sans-serif;
+
+
+}
+
+
+#Image img {
+  margin-top: 20px;     /* espace depuis le haut de la page */
+  width: 550px;          /* largeur rectangulaire */
+  height: 150px;         /* hauteur rectangulaire */
+  object-fit: cover;     /* recadrage de l'image pour remplir la zone */
+  border-radius: 20px;   /* bords arrondis */
+  
+}
+
+
+h2, h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+
+.video-container {
+  margin-top: 20px; /* espace depuis le haut de la page */
+  display: flex;
+  justify-content: center; /* centre la vidéo horizontalement */
+}
+
+.top-video {
+  width: 50%;           /* ajuste la taille de la vidéo */
+  max-width: 800px;    /* limite la taille maximale */
+  border-radius: 20px;  /* coins arrondis */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5); /* optionnel : ombre pour effet */
+}
+
+
+
+footer {
+  display: flex;                 
+  justify-content: space-between;
+  align-items: center;           
+  padding: 20px 40px;
+  background-color: #f8f8f8;
+}
+
+.footer-left, .footer-center, .footer-right {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* espace entre logos ou éléments */
+}
+
+.footer-center img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;  /* rend le logo rond */
+  object-fit: cover;    /* ajuste si l'image n'est pas carrée */
+  
+}
+
+.footer-center img:hover {
+  transform: scale(1.2); /* effet léger au survol */
+}
+
+
+.footer-left { 
+  font-size: 36px;                  /* taille importante */
+  font-weight: 700;                 /* gras */
+  text-transform: uppercase;        /* toutes majuscules */             
+  letter-spacing: 2px;              /* espacement entre lettres */
+  margin: 40px 0;                   
+  color: #ed0ac7;
+  text-shadow:
+    0 0 5px #FF4B4B,
+    0 0 10px #b6ec06,
+    0 0 20px #4bff8d,
+    0 0 40px #84ff4b,
+    0 0 80px #15f909;
+
+}  
+    
+    
+.footer-right a {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+  
+}
+
+
+.footer-right a:hover {
+  color: #6a2c91;
+}

@@ -44,13 +44,4 @@ fetch("../Component/carte.json")
     });
   })
 
- 
-
-
-    
-    
-
-
-
-
-
+  
