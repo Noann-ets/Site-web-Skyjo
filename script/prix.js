@@ -52,5 +52,48 @@ products.forEach(product => {
 
     // On ajoute la carte à la page
     app.appendChild(card);
+
+//  On lance une requête fetch vers le serveur Python Flask
+// L'URL correspond à la route qui retourne le produit le moins cher
+fetch("http://127.0.0.1:5000/api/cheapest")
+
+  //  On récupère la réponse et on la transforme en JSON
+  .then(res => res.json())
+
+  // 3 Une fois le JSON reçu, on exécute cette fonction avec les données
+  .then(data => {
+      //  Affiche les données dans la console pour vérifier ce qu'on a reçu
+      console.log("Produit le moins cher :", data);
+
+      
+      // Cela évite de créer plusieurs fois le même div si le script est exécuté plusieurs fois
+      let existingDiv = document.getElementById("cheapest-product");
+
+      // Si le div n'existe pas encore, on le crée
+      if (!existingDiv) {
+          // Crée un nouvel élément div
+          const infoDiv = document.createElement("div");
+
+          // Donne un ID unique au div
+          infoDiv.id = "cheapest-product";
+
+          // Ajoute une classe CSS pour le style
+          infoDiv.classList.add("cheapest");
+
+          
+          // data.title et data.price viennent de la réponse JSON du serveur Python
+          infoDiv.innerHTML = `Produit le moins cher : ${data.title} à ${data.price}`;
+
+          //  On récupère le <main> qui contient les cartes produits
+          const main = document.getElementById("app");
+
+          // Ajoute le div **à la fin** du <main>, donc en bas
+          main.appendChild(infoDiv);
+      }
+  })
+
+  //  Si une erreur arrive pendant le fetch, on l'affiche dans la console
+  .catch(err => console.error(err));
+    
 });
 
